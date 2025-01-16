@@ -5,12 +5,13 @@ import './App.css'
 import Comments from './comment.jsx'
 
 function App() {
-  
   return (
     <>
-     <Comments/>
+      <div className="comments-container">
+        <Comments />
+      </div>
     </>
   )
 }
 
-export default App
+export default App;

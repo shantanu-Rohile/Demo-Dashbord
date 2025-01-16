@@ -6,7 +6,7 @@ export default function Comment() {
     let[comments,setComment]=useState([{
         fullName:"Rohan",
         taskName:"Cleaning",
-        datandtime:""
+        datandtime:"2025-01-16T11:59"
     }])
 
     let addNewComments=(comment)=>{

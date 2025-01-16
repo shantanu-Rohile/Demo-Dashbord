@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './form.css'
 function Form({addNewComments}) {
   let [formData, setFormData]=useState({
     fullName:"",
@@ -20,6 +21,16 @@ function Form({addNewComments}) {
   })
 
   let onChangeSubmit=(()=>{
+    if(!formData.fullName ){
+      alert("Wrong credentials");
+      return;
+    }else if(!formData.taskName){
+      alert("Wrong credentials");
+      return;
+    }else if(!formData.datandtime){
+      alert("Wrong credentials");
+      return;
+    }
     console.log("Button is Clicked")
     console.log(formData)
     addNewComments(formData)

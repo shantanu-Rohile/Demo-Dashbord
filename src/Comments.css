@@ -1,5 +1,31 @@
-.comment{
-    border: 2px solid blueviolet;
+.comment-section {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Comments List */
+  .comments-list {
+    margin-top: 20px;
+  }
+  
+  .comment {
     padding: 10px;
-    margin: 10px;
-}
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background-color: #fff;
+  }
+  
+  .comment span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .comment strong {
+    color: #333;
+  }
+  

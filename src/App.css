@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+
+.comments-container {
+  border: 2px solid black;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
